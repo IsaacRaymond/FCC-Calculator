@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+
 body {
   margin-top:  100px;
   background: linear-gradient(45deg, rgba(235,241,246,1) 0%,rgba(171,211,238,1) 50%,rgba(213,235,251,1) 100%);
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 .grid{
