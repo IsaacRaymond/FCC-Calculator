@@ -40,12 +40,13 @@ button {
 }
 
 .main-box{
-  border-radius:  85px;
+  border-radius:  80px;
   width:  425px;
   margin: 8% auto;
   background-color:  #AAA;
   text-align:  center;
   padding:  10px 40px;
+  box-shadow:  5px 5px 5px 3px rgba(0, 0, 0, 0.2);
 }
 
 .calc-box{
@@ -56,6 +57,16 @@ button {
   font-size: 30px;
   margin-top:  10px;
   margin-bottom: 10px;
+}
+
+.no-select{
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome and Opera */
 }
 
 #fixed-bottom-wrap{
